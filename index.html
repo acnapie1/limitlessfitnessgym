@@ -5,21 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="author" content="Abby Napier and The Professor of GIT414">
 <meta name="robots" content="index, follow">
-<!--TO DO <meta name=“description” content=""> -->
-<!--TO DO <meta property="og:title" content=""> -->
+<meta name=“title” content="No limits with Limitless Fitness"> 
+<meta name="description" content="Look no further! Limitless Fitness is here. Improve your health and discover a new you. Find inner strength in our top of the art gym and connect with others in our fitness classes."> 
+<meta property="og:title" content="Limitless Gym: fitness, strength, power, connection">
 <meta property="og:type" content="Website">
-<!--TO DO <meta property="og:image" content="images/">-->
+<meta property="og:image" content="images/dumbells.jpg">
 <!--TO DO <meta property="og:url" content="">-->
 <meta name=“twitter:card” content= “summary_large_image”>
 <meta name=“twitter:site” content= “@limitless_fitness”>
 <meta name=“twitter:creator” content= “@GIT414_class”>
-<!--TO DO <meta name=“twitter:description” content="">-->
-<!--TO DO <meta name=“twitter:title” content= "">-->
-<!-- TO DO <meta property="og:image" content="images/">-->
+<!--TO DO <meta name="twitter:description" content="">-->
+<!--TO DO <meta name="twitter:title" content= "">-->
+<meta property="og:image" content="images/classes.jpg">
 </head>
 <body>
-<!--TO DO add a skip link that skips to the main content -->
   <header>
+    <a class="skip-link" href='#main'>Skip to main content</a>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#007BFF" stroke-linecap="round" stroke-linejoin="round" width="75" height="75" stroke-width="1.5">
       <path d="M2 12h1"></path>
       <path d="M6 8h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2"></path>
@@ -32,11 +33,18 @@
     <h1>Transform Your Life at Limitless Fitness</h1>
     <p>Unleash your strength, embrace the challenge, and join a community dedicated to your fitness journey.</p>
     <a href="#">Join Now</a>
-<!-- TO DOadd alt text where necessary -->
-<!--TO DO add responsive images for resolution switching -->
-    
-      src="images/facility.jpg"
-
+                        <img
+                        alt="A picture of the Timeless Fitness training facility in black and white"
+                        srcset="
+                        images/facility-320w.jpg 320w,
+                        images/facility-768w.jpg 768w,
+                         images/facility.jpg 1920w
+                        "
+                        sizes="(max-width: 600px) 320px,
+                        (max-width: 1000px) 768px,
+                        1920px"
+                        src="images/facility.jpg"
+                        >
   </header>
   <nav>
     <h2>>Main Navigation</h2>
@@ -49,7 +57,7 @@
       <li><a href="#">Contact</a></li>
     </ul>
   </nav>
-  <main>
+  <main id="main">
     <section>
       <h2>About Us</h2>
       <p>Welcome to Limitless Fitness, where fitness meets community. Our state-of-the-art facility is designed to inspire and support you at every stage of your journey. Whether you're a beginner or a seasoned athlete, our expert trainers and diverse classes provide the perfect environment to achieve your personal best.</p>
@@ -73,9 +81,18 @@
         <li>Specialty Workshops: From functional training to mindfulness sessions.</li>
         <li>Check out our [Class Schedule] for times and detailed descriptions.</li>
       </ul>
-<!--TO DO add alt text where necessary -->
-<!--TO DO add responsive images for resolution switching -->
-        src="images/classes.jpg"
+                      <img
+                        alt="Two women and a man doing squats while holding barbells in black and white."
+                        srcset="
+                        images/classes-320w.jpg 320w,
+                        images/classes-768w.jpg 768w,
+                         images/classes.jpg 1920w
+                        "
+                        sizes="(max-width: 600px) 320px,
+                        (max-width: 1000px) 768px,
+                        1920px"
+                        src="images/classes.jpg"
+                        >
 
     </section>
     <section>
@@ -85,10 +102,18 @@
         Ready for a change?
       </p> 
       <a href="#">Book a Free Consultation today!</a>
-<!--TO DO add alt text where necessary -->
-<!--TO DO add responsive images for resolution switching -->
-        src="images/dumbells.jpg"
-
+                       <img
+                        alt="Dumbells on a rack in black and white"
+                        srcset="
+                        images/dumbells-320w.jpg 320w,
+                        images/dumbells-768.jpg 768w,
+                         images/dumbells.jpg 1920w
+                        "
+                        sizes="(max-width: 600px) 320px,
+                        (max-width: 1000px) 768px,
+                        1920px"
+                        src="images/dumbells.jpg"
+                        >
     </section>
     <section>
       <h2>Membership Options</h2>
